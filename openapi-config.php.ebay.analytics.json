@@ -1,0 +1,14 @@
+{
+  "packageName": "sdk-ebay-rest-analytics",
+  "composerVendorName": "macropage",
+  "composerProjectName": "sdk-ebay-rest-analytics",
+  "artifactVersion": "2.3.2",
+  "invokerPackage": "macropage\\SDKs\\ebay\\rest\\analytics",
+  "modelPackage": "Model",
+  "apiPackage": "API",
+  "variableNamingConvention": "camelCase",
+  "srcBasePath": "src",
+  "gitUserId": "macropage",
+  "gitRepoId": "sdk-ebay-rest-analytics",
+  "validateSpec": false
+}
