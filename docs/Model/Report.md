@@ -1,6 +1,7 @@
-# Report
+# # Report
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **dimensionMetadata** | [**\macropage\SDKs\ebay\rest\analytics\Model\Metadata[]**](Metadata.md) | A complex type containing the header of the report and the type of data containted in the rows of the report. | [optional] 
@@ -11,6 +12,6 @@ Name | Type | Description | Notes
 **startDate** | **string** | The start date of the date range used to calculate the report, in ISO 8601 format. | [optional] 
 **warnings** | [**\macropage\SDKs\ebay\rest\analytics\Model\Error[]**](Error.md) | An array of any process errors or warnings that were generated during the processing of the call processing. | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

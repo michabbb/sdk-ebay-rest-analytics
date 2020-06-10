@@ -1,6 +1,7 @@
-# StandardsProfile
+# # StandardsProfile
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cycle** | [**\macropage\SDKs\ebay\rest\analytics\Model\Cycle**](Cycle.md) |  | [optional] 
@@ -10,6 +11,6 @@ Name | Type | Description | Notes
 **program** | **string** | Indicates the program used to generate the profile data. Values can be PROGRAM_DE, PROGRAM_UK, PROGRAM_US, or PROGRAM_GLOBAL. For implementation help, refer to &lt;a href&#x3D;&#39;https://developer.ebay.com/devzone/rest/api-ref/analytics/types/ProgramEnum.html&#39;&gt;eBay API documentation&lt;/a&gt; | [optional] 
 **standardsLevel** | **string** | The overall standards level of the seller, one of TOP_RATED, ABOVE_STANDARD, or BELOW_STANDARD. For implementation help, refer to &lt;a href&#x3D;&#39;https://developer.ebay.com/devzone/rest/api-ref/analytics/types/StandardsLevelEnum.html&#39;&gt;eBay API documentation&lt;/a&gt; | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

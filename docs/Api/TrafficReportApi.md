@@ -7,7 +7,9 @@ Method | HTTP request | Description
 [**getTrafficReport**](TrafficReportApi.md#getTrafficReport) | **GET** /traffic_report | 
 
 
-# **getTrafficReport**
+
+## getTrafficReport
+
 > \macropage\SDKs\ebay\rest\analytics\Model\Report getTrafficReport($dimension, $filter, $metric, $sort)
 
 
@@ -15,12 +17,15 @@ Method | HTTP request | Description
 This method returns a report that details the user traffic received by a seller's listings. A traffic report gives sellers the ability to review how often their listings appeared on eBay, how many times their listings are viewed, and how many purchases were made. The report also returns the report's start and end dates, and the date the information was last updated. When using this call: Be sure to URL-encode the values you pass in query parameters, as described in URI parameters. See the request samples below for details. You can only specify a single metric in the sort parameter and the specified metric must be listed in the metric parameter of your request. Parameter names are case sensitive, but metric names are not. For example, the following are correct: sort=LISTING_IMPRESSION_TOTAL sort=lisitng_impression_total metric=lisitng_impression_total However, these are incorrect: SORT=LISTING_IMPRESSION_TOTAL SORT=lisitng_impression_total Metric=lisitng_impression_total For more information, see Traffic report details.
 
 ### Example
+
 ```php
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
+
 // Configure OAuth2 access token for authorization: api_auth
 $config = macropage\SDKs\ebay\rest\analytics\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+
 
 $apiInstance = new macropage\SDKs\ebay\rest\analytics\Api\TrafficReportApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
@@ -44,6 +49,7 @@ try {
 
 ### Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **dimension** | **string**| This query parameter specifies the dimension, or &amp;quot;attribute,&amp;quot; that is applied to the report metric. Valid values: DAY or LISTING Examples If you specify dimension&#x3D;DAY and metric&#x3D;CLICK_THROUGH_RATE, the traffic report contains the number of times an item displayed on a search results page and the buyer clicked through to the View Item page for each day in the date range, as in: 12-06-17: 32, 12-07-17: 54, ... If you specify dimension&#x3D;LISTING and metric&#x3D;LISTING_IMPRESSION_STORE, the traffic report contains the number of times that listing appeared on the seller&#39;s store during the specified date range. For example, LISTING_IMPRESSION_STORE: 157 means the item appeared 157 times in the store during the date range. | [optional]
@@ -61,8 +67,10 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
- - **Accept**: application/json
+- **Content-Type**: Not defined
+- **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../../README.md#documentation-for-models)
+[[Back to README]](../../README.md)
 

@@ -7,7 +7,9 @@ Method | HTTP request | Description
 [**getCustomerServiceMetric**](CustomerServiceMetricApi.md#getCustomerServiceMetric) | **GET** /customer_service_metric/{customer_service_metric_type}/{evaluation_type} | 
 
 
-# **getCustomerServiceMetric**
+
+## getCustomerServiceMetric
+
 > \macropage\SDKs\ebay\rest\analytics\Model\GetCustomerServiceMetricResponse getCustomerServiceMetric($customerServiceMetricType, $evaluationMarketplaceId, $evaluationType)
 
 
@@ -15,12 +17,15 @@ Method | HTTP request | Description
 Use this method to retrieve a seller's performance and rating for the customer service metric. Control the response from the getCustomerServiceMetric method using the following path and query parameters: customer_service_metric_type controls the type of customer service transactions evaluated for the metric rating. evaluation_type controls the period you want to review. evaluation_marketplace_id specifies the target marketplace for the evaluation. Currently, metric data is returned for only peer benchmarking. For more detail on the workings of peer benchmarking, see Service metrics policy.
 
 ### Example
+
 ```php
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
+
 // Configure OAuth2 access token for authorization: api_auth
 $config = macropage\SDKs\ebay\rest\analytics\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+
 
 $apiInstance = new macropage\SDKs\ebay\rest\analytics\Api\CustomerServiceMetricApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
@@ -43,6 +48,7 @@ try {
 
 ### Parameters
 
+
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **customerServiceMetricType** | **string**| Use this path parameter to specify the type of customer service metrics and benchmark data you want returned for the seller. Supported types are: ITEM_NOT_AS_DESCRIBED ITEM_NOT_RECEIVED |
@@ -59,8 +65,10 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
- - **Accept**: application/json
+- **Content-Type**: Not defined
+- **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../../README.md#documentation-for-models)
+[[Back to README]](../../README.md)
 

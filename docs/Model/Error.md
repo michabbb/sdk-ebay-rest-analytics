@@ -1,6 +1,7 @@
-# Error
+# # Error
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **category** | **string** | Identifies whether the error was in the REQUEST or happened when running the APPLICATION. | [optional] 
@@ -13,6 +14,6 @@ Name | Type | Description | Notes
 **parameters** | [**\macropage\SDKs\ebay\rest\analytics\Model\ErrorParameter[]**](ErrorParameter.md) | This optional list of name/value pairs that contain context-specific ErrorParameter objects, with each item in the list being a parameter (or input field name) that caused an error condition. Each ErrorParameter object consists of two fields, a name and a value. | [optional] 
 **subdomain** | **string** | If present, indicates which subsystem in which the error occurred. | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 
